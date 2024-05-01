@@ -1,0 +1,4 @@
+/__pycache__
+/fastapi_env
+
+/blog.db
