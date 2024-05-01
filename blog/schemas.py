@@ -6,9 +6,11 @@ class User(BaseModel):
     email: str
     password: str
 
+
 class ShowUser(BaseModel):
     name: str
     email: str
+
 
 class Blog(BaseModel):
     id: int
@@ -18,3 +20,8 @@ class Blog(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+class LoginUser(BaseModel):
+    email: str
+    password: str
